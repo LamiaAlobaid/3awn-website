@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+</head>
+
+<body align="center">
+    <br />
+    <br />
+    <!--  <img src = photos/logo.png width="300" height="300"-->
+    <p><b>تسجيل جديد</b></p>
+    <br />
+    <form method="post" action="">
+
+        <p><label for = "txtList">اسم الجمعية:
+            <input type = "text" id = "txtList" 
+               placeholder = "اختيار الجمعية" list = "الجمعيات" />
+            <datalist id = "الجمعيات">
+               <option value = "البر">
+               <option value = "الوداد">
+               <option value = "انسان">
+        
+            </datalist>
+         </label></p>
+
+        <p>
+            <label>الاسم الاول 
+
+                <input type="text" name="الاسم الاول" value="">
+            </label>
+        </p>
+        
+        <p>
+            <label>الاسم الاخير 
+
+                <input type="text" name="الاسم الاخير" value="">
+            </label>
+        </p>
+        <p>
+            <label>اسم المستخدم
+
+                <input type="text" name="اسم المستخدم" value="">
+            </label>
+        </p>
+        <p>
+            <label> كلمة المرور
+
+                <input type="password" name="كلمة المرور" value="">
+            </label>
+        </p>
+
+        <p>
+            <label>الايميل الالكتروني
+                <input type="email" placeholder="name@domain.com" required />
+            </label>
+        </p>
+        <p>
+            <label>رقم الجوال
+                <input type="tel"  required />
+            </label>
+        </p>
+        <p>
+            <label> العنوان الوطني
+                <input type="text" name="العنوان الوطني" value="">
+            </label>
+        </p>
+        <p>
+            <label>الرمز
+                <input type="text" name="الرمز" value="">
+            </label>
+        </p>
+       <a href = "personPage.html"> <input type="submit" name="submit" value="انشاء حساب"> </a>
+    </form>
+    <p>
+        لديك حساب ؟
+        <a href="loginPerson.html"> تسجيل دخول</a>
+    </p>
+</body>
+
+</html>
