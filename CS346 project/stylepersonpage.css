@@ -1,0 +1,72 @@
+/*welcome page background for beneficiary */
+.welcomebeneficiary{
+    background-color: #AFC8A7;
+    padding-bottom: 110px;
+    padding-right: 10px;
+    padding-top:15px;
+}
+/* text and pic in welcome page*/
+.welcomephrase{
+    padding-top: 60px;
+    padding-right: 30px;
+    font-size: 40px;
+    color: aliceblue;
+    text-align: "right";
+    font-weight: bolder;
+}
+.slogan{
+    color: aliceblue;
+    padding-right: 30px;
+    font-weight: bolder;
+
+
+}
+.welcomepic{
+    position: absolute;
+    top:0%;
+    left:1%;
+    z-index: 1;
+}
+/* bar menu*/
+.navmenu{
+    position: fixed;
+    padding-left: 685px;
+    background-color: #AFC8A7;
+ }
+.navmenu ul li{
+    display: inline-block;  
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: bold;
+    margin-right: 18px;
+}
+li a:hover{
+    color: #355E3b;
+}
+button:hover{
+    background-color: #4f8b58;
+}
+.basketicon{
+    position: fixed;
+    top:4.2%;
+    left:6%;
+}
+.profileicon{
+    position: fixed;
+    top:6.5%;
+    left:3%;
+
+}
+button{
+    background-color: #355E3b;
+    border-radius: 10px;
+    padding:10px;
+    border: none;
+}
+.choosebutton{
+    position: absolute;
+    right: 140px;
+    top:350px;
+}

@@ -3,33 +3,42 @@
 
 <head>
     <meta charset="UTF-8">
+    <link rel = "stylesheet" type = "text/css"  href = "stylepersonpage.css"> 
     <title>3awn for beneficiary</title>
 </head>
 
 <body>
-    
-   <b><p align = "center">أهلا بك في عون لخدمة المستفيدين</p></b> 
-
-    <!--profile and basket icons-->
-    <div>
-        <img class="profile-icon" src="photos/profile icon.jpg" height="50" width="50" alt="Profile">
-        <img class="basket-icon" src="photos/basket.png" height="50" width="50" alt="Basket">
-      </div>
-
+  <!--welcome page for beneficiary-->
+  <section class = "welcomebeneficiary">
     <!--menu-->
-    <nav>
-        <a href="#">الصفحة الرئيسية</a>
-        <a href="#">كل المنتجات</a>
-        <a href="#">ملابس</a>
-        <a href="#">أثاث</a>
-        <a href="#">الكترونيات</a>
-        <a href="#">طلب مسبق</a>
-      </nav>
+    <nav class = "navmenu"> <!--nav bar-->
+      <div class = " divmenu"> <!--nav div-->
+      <div class = "shoppingcart">
+        <img class="basketicon" src="photos/cart.png" height="65" width="60" alt="Basket">
+        <img class="profileicon" src="photos/profileicon.png" height="30" width="30" alt="Profile">
+      </div>
+        <ul class="navbar">
+         <button><a href="#">الصفحة الرئيسية</a></button>
+         <li><a href="#">كل المنتجات</a></li>
+         <li><a href="#">ملابس</a></li>
+         <li><a href="#">أثاث</a></li>
+         <li><a href="#">الكترونيات</a></li>
+         <li><a href="#">طلب مسبق</a></li>
+       </ul>
+     </div>
+    </nav>
+    <!--Icons-->
+   <p class = "welcomephrase">أهــلا بــــك في عــــون<br><br> لـخدمــة الـمـسـتـفـيـديــن</p>
+   <p class = "slogan">تستحق حرية الاختيار , تصفح واختر كل ماتحتاج مع عون</p>
+   <img src="photos/fronpagepic.png" class = "welcomepic" width="450px" length="450px" alt= "3awn">
+   <button class= "choosebutton"><a href="#">اختر الان</a></button>
+  </section>
+
 
       <!--products-->
 
       <section>
-        <h2>المنتجات</h2>
+        <p class = "--products--">المنتجات</p>
         <div class="item">
           <img src="photos/fridge.png" width="150" height="200" alt="ثلاجة">
           <div>
