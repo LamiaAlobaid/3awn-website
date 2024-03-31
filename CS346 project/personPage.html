@@ -2,66 +2,128 @@
 <html dir="rtl">
 
 <head>
-    <meta charset="UTF-8">
-    <link rel = "stylesheet" type = "text/css"  href = "stylepersonpage.css"> 
-    <title>3awn for beneficiary</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="stylepersonpage.css">
+  <title>3awn for beneficiary</title>
 </head>
 
 <body>
-  <!--welcome page for beneficiary-->
-  <section class = "welcomebeneficiary">
-    <!--menu-->
-    <nav class = "navmenu"> <!--nav bar-->
-      <div class = " divmenu"> <!--nav div-->
-      <div class = "shoppingcart">
+  <!--welcome page-->
+  <section id="welcomebeneficiary">
+    <!--MENU BAR-->
+    <nav class="navmenu">
+      <!--menu icons-->
+      <div>
         <img class="basketicon" src="photos/cart.png" height="65" width="60" alt="Basket">
         <img class="profileicon" src="photos/profileicon.png" height="30" width="30" alt="Profile">
       </div>
-        <ul class="navbar">
-         <button><a href="#">الصفحة الرئيسية</a></button>
-         <li><a href="#">كل المنتجات</a></li>
-         <li><a href="#">ملابس</a></li>
-         <li><a href="#">أثاث</a></li>
-         <li><a href="#">الكترونيات</a></li>
-         <li><a href="#">طلب مسبق</a></li>
-       </ul>
-     </div>
+      <!--menu list-->
+      <ul class="navbar">
+        <button class = "menuebutton"><a href="personPage.html">الصفحة الرئيسية</a></button>
+        <li><a href="#">كل المنتجات</a></li>
+        <li><a href="#">ملابس</a></li>
+        <li><a href="#">أثاث</a></li>
+        <li><a href="#">الكترونيات</a></li>
+        <li><a href="#">طلب مسبق</a></li>
+      </ul>
+      </div>
     </nav>
-    <!--Icons-->
-   <p class = "welcomephrase">أهــلا بــــك في عــــون<br><br> لـخدمــة الـمـسـتـفـيـديــن</p>
-   <p class = "slogan">تستحق حرية الاختيار , تصفح واختر كل ماتحتاج مع عون</p>
-   <img src="photos/fronpagepic.png" class = "welcomepic" width="450px" length="450px" alt= "3awn">
-   <button class= "choosebutton"><a href="#">اختر الان</a></button>
+
+    <!--welcome text in home page-->
+    <p class="welcomephrase">أهــلا بــــك في عــــون<br><br> لـخدمــة الـمـسـتـفـيـديــن</p>
+    <p class="slogan">تستحق حرية الاختيار , تصفح واختر كل ماتحتاج مع عون</p>
+    <img src="photos/fronpagepic.png" class="welcomepic" width="450px" length="450px" alt="3awn">
+    <button class="choosebutton"><a href="#products">اختر الان</a></button>
   </section>
 
 
-      <!--products-->
+  <!--products-->
+  <section id="products">
+    <p class="browseProducts">تــصــفـــح الــمــنـــتــجــات</p>
+    <div class="allProducts">
 
-      <section>
-        <p class = "--products--">المنتجات</p>
-        <div class="item">
-          <img src="photos/fridge.png" width="150" height="200" alt="ثلاجة">
-          <div>
-            <p>ثلاجة</p>
-            <p>ثلاجة كبيرة تكفي 4 اشخاص </p>
-            <button>أضافة</button>
-          </div>
+      <div class="more">
+        <div>
+          <button class="browseAllButton"><img src="photos/rightArrow.png" class="browseAll" height="60" width="55"></button>
         </div>
+      </div>
 
-        <br><br>
-
-        <div class="item">
-          <img src="photos/sofa.png" width="200" height="150" alt="كنب">
-          <div>
-            <p> كنب </p>
-            <p>كنب يكفي 3 اشخاص</p>
-            <button>أضافة</button>
-          </div>
+      <div class="item">
+        <img src="photos/fridge.png" class="productimg" alt="ثلاجة">
+        <div class="discription">
+          <span>سامسونج</span>
+          <h3>ثلاجة</h3>
+          <p>ثلاجة كبيرة تكفي 4 اشخاص </p>
         </div>
+        <div>
+          <button class="addtocart"><img src="photos/cart.png"  class="addtocartpic" height="40" width="40"></button>
+        </div>
+      </div>
 
-      </section>
-    
+      <div class="item">
+        <img src="photos/sofa.png" class="productimg" alt="ثلاجة">
+        <div class="discription">
+          <span>مفروشات القثمي</span>
+          <h3>كنب</h3>
+          <p>كنب رمادي يكفي 3 اشخاص </p>
+        </div>
+        <div>
+          <button class="addtocart"><img src="photos/cart.png"  class="addtocartpic" height="40" width="40"></button>
+        </div>
+      </div>
 
+      <div class="item">
+        <img src="photos/blackTshirt.png" class="productimg" alt="ثلاجة">
+        <div class="discription">
+          <span>ماكس</span>
+          <h3>تيشيرت</h3>
+          <p>تيشيرت اسود مقاس ميديم  </p>
+        </div>
+        <div>
+          <button class="addtocart"><img src="photos/cart.png"  class="addtocartpic" height="40" width="40"></button>
+        </div>
+      </div>
+
+      <div class="item">
+        <img src="photos/pinkTrainer.png" class="productimg" alt="ثلاجة">
+        <div class="discription">
+          <span>اديداس</span>
+          <h3>جزمة رياضية</h3>
+          <p>جزمة وردية مقاس 38 </p>
+        </div>
+        <div>
+          <button class="addtocart"><img src="photos/cart.png"  class="addtocartpic" height="40" width="40"></button>
+        </div>
+      </div>
+
+      
+    </div>
+
+  </section>
+
+  <!--Register for notification-->
+  <section id = "notification">
+    <div class = "registerWithUs">
+      <h3>ســـجـــل مـــعـــنـــا</h3>
+      <p>اكتب ايميلك عشان يوصلك كل جديد</p>
+    </div>
+    <div class = "writeEmail">
+      <input type="text" placeholder="اكتب ايميلك">
+      <button class="registerbutton">سجل</button>
+    </div>
+  </section>
+
+  <!--Footer-->
+  <footer>
+    <div class = "column">
+      <img class= "logofooter" src = "photos/imamu.png" width="30px" height="30px">
+      <p> مشروع صمم بواسطة طالبات جامعة الامام محمد بن سعود الاسلامية</p>
+      
+    <div class = "copyright"> 
+      <p>2024</p>
+    </div>
+  </footer>
 
 </body>
+
 </html>

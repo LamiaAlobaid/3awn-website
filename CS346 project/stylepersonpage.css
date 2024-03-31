@@ -1,12 +1,15 @@
+/* HEADER */
+
 /*welcome page background for beneficiary */
-.welcomebeneficiary{
-    background-color: #AFC8A7;
+#welcomebeneficiary {
+    background-color: #94ac8d;
     padding-bottom: 110px;
     padding-right: 10px;
-    padding-top:15px;
+    padding-top: 15px;
 }
+
 /* text and pic in welcome page*/
-.welcomephrase{
+.welcomephrase {
     padding-top: 60px;
     padding-right: 30px;
     font-size: 40px;
@@ -14,59 +17,229 @@
     text-align: "right";
     font-weight: bolder;
 }
-.slogan{
+
+.slogan {
     color: aliceblue;
     padding-right: 30px;
     font-weight: bolder;
 
-
 }
-.welcomepic{
+
+.welcomepic {
     position: absolute;
-    top:0%;
-    left:1%;
+    top: 5%;
+    left: 1%;
     z-index: 1;
 }
+
 /* bar menu*/
-.navmenu{
+.navmenu {
     position: fixed;
-    padding-left: 685px;
-    background-color: #AFC8A7;
- }
-.navmenu ul li{
-    display: inline-block;  
+    padding-left: 690px;
+    background-color: #94ac8d;
+    z-index: 999;
+
+
 }
-a{
+
+.navmenu ul li {
+    display: inline-block;  
+  
+}
+
+ul a {
     text-decoration: none;
     color: aliceblue;
     font-weight: bold;
     margin-right: 18px;
 }
-li a:hover{
+
+.navbar li a:hover {
     color: #355E3b;
 }
-button:hover{
+
+button:hover {
     background-color: #4f8b58;
 }
-.basketicon{
-    position: fixed;
-    top:4.2%;
-    left:6%;
-}
-.profileicon{
-    position: fixed;
-    top:6.5%;
-    left:3%;
 
+.basketicon {
+    position: fixed;
+    top: 4.2%;
+    left: 6%;
 }
-button{
+
+.profileicon {
+    position: fixed;
+    top: 6.5%;
+    left: 3%;
+}
+
+button {
     background-color: #355E3b;
-    border-radius: 10px;
-    padding:10px;
     border: none;
 }
-.choosebutton{
+
+.menuebutton{
+    padding: 10px 10px;
+    border-radius: 50px;
+
+}
+
+.choosebutton {
+    padding: 10px;
     position: absolute;
     right: 140px;
-    top:350px;
+    top: 350px;
+    border-radius: 50px;
+
+}
+
+.choosebutton a{
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: bold;
+}
+
+
+/* PRODUCTS */
+#products{
+    padding: 35px 20px;
+    text-align: center;
+}
+
+.browseProducts{
+    font-size: 35px;
+    text-align: center;
+    font-weight: bolder;
+}
+span{
+    color: gray;
+    font-size: small;
+}
+
+#products .item {
+    width: 20%;
+    min-width: 200px;
+    padding: 5px 5px;
+    border: 1px solid #cce7d0;
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 20px 20px 30px rgb(0,0,0,0.02);
+    margin: 10px 0;
+    position: relative;
+}
+
+#products .more{
+    height: 10%;
+    border-radius: 50%;
+    background-color: #355E3b;
+    margin: 140px 0;
+    position: relative;
+
+  
+}
+
+#products .browseAll{
+    padding-top: 5px;
+
+}
+
+.browseAllButton{
+    border-radius: 50px;
+
+}
+
+#products .browseAll:hover{
+    color: #4f8b58;
+}
+
+#products .item:hover{
+    box-shadow: 5px 5px 5px 5px rgb(0,0,0,0.1);
+
+}
+
+#products .item .productimg{ 
+    width: 100%;
+    border-radius: 20px;
+}
+
+#products .item .addtocart{
+    width: 35px;
+    height: 35px;  
+    padding-right: 1px;
+    padding-left: 40px;
+    border-radius: 50px;
+
+}
+
+
+#products .allProducts{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    flex-wrap: wrap;
+
+}
+
+/* Rigster for notification */
+#notification{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    background-image: url(photos/signUpWithUs.PNG);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: 20% 50%;
+    background-color: #AFC8A7;
+    padding: 35px 20px;
+    margin-bottom: 40px;
+}
+
+#notification h3{
+    font-size: 35px;
+    font-weight: 700;
+    color:white;
+    padding-right: 40px;
+}
+
+#notification p{
+    font-size: 20px;
+    font-weight: 600;
+    color:white;
+    padding-right: 40px;
+
+}
+
+#notification .writeEmail{
+    display: flex;
+    width: 40%;
+}
+
+#notification input{
+    height: 3rem;
+    padding: 0.1em;
+    font-size: 15px;
+    width: 100%;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    outline: none;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+#notification .registerbutton{
+    padding: 8px 25px;
+    font-size: 15px;
+    border-radius: 4px;
+    color: white;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+
+}
+
+/* Footer */
+footer{
+    text-align: center;
+  
 }
