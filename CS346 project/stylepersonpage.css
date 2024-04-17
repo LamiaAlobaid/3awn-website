@@ -1,6 +1,9 @@
 /* HEADER */
 
 /*welcome page background for beneficiary */
+p{
+    font-size: medium;
+}
 #welcomebeneficiary {
     background-color: #94ac8d;
     padding-bottom: 110px;
@@ -237,6 +240,66 @@ span{
     border-bottom-right-radius: 0;
 
 }
+
+/* SHOPPING CART */
+#shoppingCart {
+    padding: 25px 25px;
+    text-align: center;
+}
+#shoppingCart .InsideCart {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    flex-wrap: wrap;
+}
+#shoppingCart .aProductInCart {
+    margin-right: 20%;
+    width: 60%;
+    height: auto;
+    border: 1px solid #cce7d0;
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02);
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+#shoppingCart .aProductInCart .content {
+    flex: 1;
+    padding: 10px;
+}
+
+#shoppingCart .aProductInCart .productImage {
+    width: 100px; 
+    height: auto;
+    border-radius: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px; 
+    margin-right: 10px; 
+
+
+}
+#shoppingCart .aProductInCart .content .discription {
+    margin-left: 350px;
+}
+
+#shoppingCart .aProductInCart .content .Quantity {
+    position: absolute;
+    top: 10px;
+    left: 80px;
+    margin: 10px;
+}
+#shoppingCart .aProductInCart .content .removeButton {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 10px;
+    cursor: pointer;
+}
+
+
 
 /* Footer */
 footer{
