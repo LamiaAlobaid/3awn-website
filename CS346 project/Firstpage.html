@@ -4,27 +4,43 @@
 <head>
     <meta charset="UTF-8">
     <title>3awn</title>
+    <link rel="stylesheet" type="text/css" href="stylepersonpage.css">
 </head>
 
-<body align="center">
+<body>
+    <!-- Welcome part -->
+    <div class="first_page_continer">
     <br /><br />
-    <p> <strong>أهلاً بكم في عون</strong><p>
-        
-
-       <!--<body bgcolor="gray">--> 
-      
+    <p class="welcomephrase"> <strong>أهلاً بكم في عون</strong><p>
+        <p class="slogan">عون منصة تطوعية تتيح ...</p>
+    </div>
+    <div class="fpicture">
+        <img src="photos/fronpagepic.png" class="welcomepic" width="450px" length="450px" alt="3awn">
+    </div>
+    
+    <!-- buttons -->
+    <div class="btns" align="center">
             <br />
-            <a href="signupPerson.html" > <!-- زر المستفيد-->
-                
-                <img src = photos/profile.png width="300" height="300">
+            <a href="signupPerson.html"> <!-- زر المستفيد-->
+                <button type="button" class="btn"> تسجيل مستفيد </button> 
             </a>
-           <!--    <button type="button"> تسجيل مستفيد </button>-->
 
             <br /><br />
             <a href="signupgroup.html" > <!-- زر الجمعيات -->
-                <img src = photos/group.png width="300" height="300">
-
+                <button type="button" class="btn">تسجيل جمعيات</button>
             </a>
+        </div>
+
+        <!-- footer -->
+        <footer>
+            <div class = "column">
+              <img class= "logofooter" src = "photos/imamu.png" width="30px" height="30px">
+              <p> مشروع صمم بواسطة طالبات جامعة الامام محمد بن سعود الاسلامية</p>
+              
+            <div class = "copyright"> 
+              <p>2024</p>
+            </div>
+          </footer>
         </body>
 
 </html>

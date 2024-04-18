@@ -306,3 +306,37 @@ footer{
     text-align: center;
   
 }
+
+/* First page */
+.first_page_continer{
+    background-color: #94ac8d;
+    align-items: end;
+    padding-right: 50px;
+    height: 450px;
+    text-size-adjust: 80px ;
+    }
+    
+    .btn{
+       font-size: 18px;
+       background: #355E3b; 
+       width:200px;
+       height: 30px;
+       padding: 5px;
+       color:white;
+       border-radius: 5px;
+       cursor: pointer;
+       box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+       -webkit-transition-property: box-shadow, transform;
+       transition-property: box-shadow, transform;
+    }
+    .btn:hover{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    -webkit-transform: scale(1.1) ;
+    transform: scale(1.1);
+    }
+    .btns{
+        margin-bottom: 100px;
+    }
+    
+    /* ------------------------------- */
+    
