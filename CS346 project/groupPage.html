@@ -4,108 +4,63 @@
 <head>
     <meta charset="UTF-8">
     <title>3awn for associations</title>
+    <link rel="stylesheet" type="text/css" href="stylepersonpage.css">
 </head>
 
 <body>
-    
-    <b><p align = "center">أهلا بك في عون لخدمة الجمعيات</p></b>
 
-     <!--menu-->
-     <nav>
-        <a href="#">الصفحة الرئيسية</a>
-        <a href="#اضافة منتجات">أضافة المنتجات</a>
-        <a href="#اضافة مستفيد">إضافة مستفيد</a>
-        <a href="#">إدارة المستفيدين</a>
-        <a href="#">مراجعة الطلبات</a>
-        <a href="#">تجهيز و توصيل</a>
-      </nav>
+<section class="group_page_continer">
+    <!--MENU BAR-->
+    <nav class="navmenu2">
+
+      <!--menu-->
+      <ul class="navbar">
+        <button class = "menuebutton"><a href="groupPage.html">الصفحة الرئيسية</a></button>
+        <li><a href="#اضافة منتجات">أضافة المنتجات</a></li>
+        <li> <a href="#اضافة مستفيد">إضافة مستفيد</a></li>
+        <li> <a href="#">إدارة المستفيدين</a</li>
+        <li><a href="#">مراجعة الطلبات</a></li>
+        <li> <a href="#">تجهيز و توصيل</a></li>
+      </ul>
+      </div>
+    </nav>
+
+    <!--welcome text in group page-->
+    <p class="welcomephrase2">أهــلا بــــك في عــــون<br><br> لـخدمــة الـجـمـعـيـات</p>
+    <img src="photos/fronpagepic.png" class="welcomepic2" width="450px" length="450px" alt="3awn">
+  </section>
+
+    <!-- ==============================  -->
 <!--الصفحة الرئيسية-->
-<br><br><br>
-<p>عدد المنتجات:  76</p>
-<br><br><br>
-<p>عدد الطلبات:  43</p>
-<br><br><br>
-<p>عدد المستفيدين:  68</p>
-<br><br><br>
-<br><br><br>
-<br><br><br>
-<br><br><br>
+<div class="circleContainer">
 
-<!--اضافة منتجات-->
-<section id="اضافة منتجات">
-    <b><p align = "center">أضف منتج</p></b>
-    <p>اثاث</p>
-    <br><br>
-    <button type="button"> + </button>
-    <br><br>
-    <p>الكترونيات</p>
-    <button type="button"> + </button>
-    <br><br>
-    <p>ملابس</p>
-    <button type="button"> + </button>
-    <br><br>
-</section>
+<div class="cir1">
+    <div class="circle"><p>76</p></div>
+<p>عدد المنتجات</p>
+</div>
 
-<!--اضافة مستفيد-->
-<section id="اضافة مستفيد">
-    <b><p align = "center">أضف مستفيد</p></b>
-    
-    <button type="button">طلب كود ضعيف </button>
-    <br><br>
-    <button type="button"> طلب كود متوسط </button>
-    <br><br>
-    <button type="button">طلب كود جيد</button>
-    <br><br>
+<div class="cir2">
+   <div class="circle"><p>43</p></div>
+<p>عدد الطلبات</p>
+</div>
 
-    <form method="post" action="">
-            <label>الاسم الاول 
-                <input type="text" name="الاسم الاول" value="">
-            </label>
-        </p>
-        <p>
-            <label>الاسم الاخير 
-                <input type="text" name="الاسم الاخير" value="">
-            </label>
-        </p>
-        <p>
-            <label>اسم المستخدم
-                <input type="text" name="اسم المستخدم" value="">
-            </label>
-        </p>
-        <p>
-            <label> كلمة المرور
-                <input type="password" name="كلمة المرور" value="">
-            </label>
-        </p>
-        <p>
-            <label>الايميل الالكتروني
-                <input type="email" placeholder="name@domain.com" required />
-            </label>
-        </p>
-        <p>
-            <label>رقم الجوال
-                <input type="tel"  required />
-            </label>
-        </p>
-        <p>
-            <label> العنوان الوطني
-                <input type="text" name="العنوان الوطني" value="">
-            </label>
-        </p>
-        <p>
-            <label>الرمز
-                <input type="text" name="الرمز" value="">
-            </label>
-        </p>
-       <a href = "personPage.html"> <input type="submit" name="submit" value="انشاء حساب"> </a>
-    </form>
+<div class="cir3">
+    <div class="circle"><p>68</p></div>
+<p>عدد المستفيدين</p>
+</div>
 
-</section>
+</div>
 
-
-
-
-
+<!-- footer -->
+<footer>
+    <div class = "column">
+      <img class= "logofooter" src = "photos/imamu.png" width="30px" height="30px">
+      <p> مشروع صمم بواسطة طالبات جامعة الامام محمد بن سعود الاسلامية</p>
+      
+    <div class = "copyright"> 
+      <p>2024</p>
+    </div>
+  </footer>
 
     
     

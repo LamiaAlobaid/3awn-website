@@ -305,17 +305,9 @@ span{
 footer{
     text-align: center;
   
-}
+}   
 
-/* First page */
-.first_page_continer{
-    background-color: #94ac8d;
-    align-items: end;
-    padding-right: 50px;
-    height: 450px;
-    text-size-adjust: 80px ;
-    }
-    
+    /* button with a hover */
     .btn{
        font-size: 18px;
        background: #355E3b; 
@@ -338,5 +330,76 @@ footer{
         margin-bottom: 100px;
     }
     
+    /* Group Page */
+    .group_page_continer{
+        background-color: #94ac8d;
+        align-items: center;
+        padding: 0px;
+        padding-top: 0px;
+        height: 430px;
+        text-size-adjust: 80px ;
+        z-index: 1;
+        }
+    .welcomepic2 {
+        position: absolute;
+        top: 5%;
+        left: 1%;
+        z-index: 1000;
+    }
+    .welcomephrase2{
+        padding-top: 170px;
+        padding-right: 30px;
+        font-size: 40px;
+        color: aliceblue;
+        text-align: "right";
+        font-weight: bolder; 
+    }
+    .navmenu2 {
+        position: fixed;
+        padding-left: 690px;
+        background-color: #94ac8d;
+        z-index: 999;   
+    }
+    .navmenu2 ul li {
+        display: inline-block;  
+        /* width: 650px; */
+    }
+    .circleContainer{
+        width: 500px;
+        height: 250px;
+        align-items:"center" ;
+        display: flex;
+        padding-right: 150px;
+        padding-top: 82px;
+        font-weight: bolder; 
+        color: #94ac8d;
+    }
+    .circle{
+        background-color: #355E3b;
+        height: 45px;
+        width: 45px;
+        border-radius: 50%;
+        padding-top: 0.5px;
+        padding-bottom: 0.5px;
+        padding-right: 1px;
+        text-align: center;
+        color: white;
+    }
+    .cir1{
+        padding-right: 200px;
+        float: right;
+        width: 70px;
+        text-align: center;
+    }
+    .cir2{
+        margin-left: 120px;
+        margin-right: 120px;
+        width: 70px;
+        text-align: center;
+    }
+    .cir3{
+        float: left;
+        width: 70px;
+        text-align: center;
+    }
     /* ------------------------------- */
-    
