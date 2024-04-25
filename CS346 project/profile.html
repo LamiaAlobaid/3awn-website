@@ -1,0 +1,92 @@
+
+<!DOCTYPE html>
+<html dir="rtl">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+	<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+	<link rel="stylesheet" href="profileSeetings.css">
+
+	<title>Settings Menu</title>
+
+</head>
+
+<body>
+	<div class="card overflow-hidden">
+		<!-- <div class="menu"> -->
+		<div class="form-box">
+			<div class="menu-header">
+				<p class="welcomephrase" align="center"><br> الملف الشخصي<br></p>
+
+				<div class="menu-body">
+					<a href="#">بياناتي</a>
+
+					<a href="orders.html">طلباتي</a>
+					<br>
+
+					<a href="#">الدعم</a>
+
+					<a href="#">اللغة</a>
+				</div>
+				<a class="notification"> الاشعارات<label class="switch">
+						<input type="checkbox">
+						<span class="slider round"></span>
+					</label></a>
+				<div class="menu-body">
+					<a  id="logoutButton" ><img src="photos/logout.webp">تسجيل خروج </a>
+				</div>
+		
+				<div class="theme-switcher">
+					<input type="radio" id="light-theme" name="themes"  />
+					<label for="light-theme">
+						<span>
+							<ion-icon name="sunny"></ion-icon> فاتح
+						</span>
+					</label>
+					<input type="radio" id="dark-theme" name="themes" />
+					<label for="dark-theme">
+						<span>
+
+							<ion-icon name="moon"></ion-icon> غامق
+						</span>
+					</label>
+
+				</div>
+			</div>
+
+		</div>
+	</div>
+
+
+	<script>
+		// Just a tiny bit of JavaScript to add classnames to the HTML-element on toggle
+		var html = document.getElementsByTagName('html');
+		var radios = document.getElementsByName('themes');
+
+		for (i = 0; i < radios.length; i++) {
+			radios[i].addEventListener('change', function () {
+				html[0].classList.remove(html[0].classList.item(0));
+				html[0].classList.add(this.id);
+			});
+		}
+		document.getElementById("logoutButton").addEventListener("click", function() {
+        var confirmation = confirm("هل انت متأكد من تسجيل الخروج ؟");
+
+        if (confirmation) {
+      
+			window.location.href = "index.html"; 
+        } else {
+
+        }
+    });
+			
+
+
+	</script>
+
+</body>
+
+</html>

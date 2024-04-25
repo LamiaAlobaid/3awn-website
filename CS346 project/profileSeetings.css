@@ -1,0 +1,213 @@
+
+:root {
+  --c-text-primary: #000001;
+  --c-text-secondary: #000001;
+  --c-border-primary: #94ac8d;
+  --c-bg-body: #94ac8d;
+  --c-bg-primary: #eee;
+  --c-bg-secondary: #71826c;
+  --c-bg-button: #3d443b;
+  }
+  :root.dark-theme {
+    --c-text-primary: #000001;
+    --c-text-secondary: #000001;
+    --c-border-primary: #454545;
+    --c-bg-body: #5e5e5e;
+    --c-bg-primary: #323339;
+    --c-bg-secondary: #565657;
+    --c-bg-button: #494a50;
+
+  }
+
+.welcomephrase {
+    padding-top: -10px;
+    padding-right: 30px;
+    font-size: 25px;
+    color: var(--c-text-secondary);
+    text-align: "right";
+    font-weight: bolder;
+}
+  body {
+    display:flex;
+    font-family: sans-serif;
+    line-height: 2;
+    justify-content: center;
+    background-color: var(--c-bg-body);
+    transform: background-color 1s ease;
+    color: var(--c-text-primary);
+  }
+  
+  .form-box{
+    top: auto;
+    width: 480px;
+    height: 680px;
+    position: relative;
+    margin: 6% auto;
+    background:  rgb(255, 255, 255);
+    padding: 5px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+  /* header */
+  .menu-header {
+    padding: 1rem;
+  }
+  
+
+  /* theme switcher */
+  .theme-switcher input {
+    display: none;
+  }
+  
+  .theme-switcher {
+    position: relative;
+    background-color: var(--c-bg-secondary);
+    border-radius: 10px;
+    display: flex;
+    padding: 0 3px;
+  }
+  
+  .theme-switcher label {
+    position: relative;
+    z-index: 2;
+    width: calc(100% / 2);
+    color: var(--c-text-secondary);
+  }
+  
+  .theme-switcher label span {
+    padding: 7px 0;
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+    opacity: 0.8;
+  }
+  
+  .theme-switcher label span:hover {
+    opacity: 0%;
+    cursor: pointer;
+  }
+  
+  .theme-switcher .slider {
+    position: absolute;
+    z-index: 1;
+    width: calc((100% - 6px) / 3);
+    top: 3px;
+    transform: translatex(-110%);
+    bottom: 3px;
+    border-radius: 8px;
+    transition: .30s ease, transform 0.25s ease-out;
+    background-color: var(--c-bg-button);
+  }
+  
+  .theme-switcher input:nth-of-type(1):checked ~ .slider {
+    transform: translateX(0);
+  }
+  .theme-switcher input:nth-of-type(2):checked ~ .slider {
+    transform: translateX(100%);
+  }
+  .theme-switcher input:nth-of-type(3):checked ~ .slider {
+    transform: translateX(200%);
+  }
+  
+  /* Menu body */
+  .menu-body {
+    padding: 1rem;
+    border-top: 1px solid var(--c-border-primary);
+    transition: border-color .30s ease;
+  }
+  
+  .menu-body a {
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+    padding: 0.6rem 0.5rem;
+    border-radius: 4px;
+    font-weight: 500;
+    transition: .30s ease;
+  }
+   
+  .menu-body a:hover {
+    background-color: var(--c-bg-secondary);
+  }
+  
+ img {
+    margin-right: 5px;
+    font-size: 20px;
+    margin-top: 2px;
+    width: 20px;
+    height:20px;
+  }
+  ion-icon {
+    margin-right: 5px;
+    font-size: 20px;
+    margin-top: 2px;
+  }
+/* The switch - the box around the slider */
+.switch {
+  position: relative;
+  display: inline-block;
+  width:60px;
+  height: 34px;
+  margin-right: 290px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 60px;
+  height: 0;
+}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 24px;
+  width: 24px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: var(--c-bg-secondary);
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px var(--c-bg-secondary);
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+a.notification{
+  margin-right: 20px;
+}
+
