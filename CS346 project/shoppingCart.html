@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" type="text/css" href="stylepersonpage.css">
+    <script src="script.js"></script>
     <title>3awn for beneficiary</title>
 </head>
 
@@ -14,8 +15,11 @@
         <nav class="navmenu">
             <!--menu icons-->
             <div>
-                <a href="shoppingCart.html"><img class="basketicon" src="photos/cart.png" height="65" width="60" alt="Basket"></a>
-                <img class="profileicon" src="photos/profileicon.png" height="30" width="30" alt="Profile">
+                <a href="shoppingCart.html" class="basket-link">
+                    <span class="item-count">0</span> <!-- Initialize count to 0 -->
+                    <img class="basketicon" src="photos/cart.png" height="65" width="60" alt="Basket">
+                </a>
+                <a  href="profile.html" ><img class="profileicon" src="photos/profileicon.png" height="30" width="30" alt="Profile"></a>
             </div>
             <!--menu list-->
             <ul class="navbar">
@@ -31,62 +35,62 @@
     </section>
 
     <!-- INSIDE SHOPPING CART -->
-<section id="shoppingCart">
-    <p class="browseProducts">محتويات سلتك</p>
-    <div class="InsideCart">
-        <div class="aProductInCart">
-            <img src="photos/fridge.png" class="productImage">
-            <div class="content">
-                <div class="discription">
-                    <span>سامسونج</span>
-                    <p class="productType">ثلاجة</p>
-                    <p class="productDetail">تكفي 3 اشخاص</p>
+    <section id="shoppingCart">
+        <p class="browseProducts">محتويات سلتك</p>
+        <div class="InsideCart">
+            <div class="aProductInCart">
+                <img src="photos/fridge.png" class="productImage">
+                <div class="content">
+                    <div class="discription">
+                        <span>سامسونج</span>
+                        <p class="productType">ثلاجة</p>
+                        <p class="productDetail">تكفي 3 اشخاص</p>
+                    </div>
+                    <p class="Quantity">الكمية <br> 1</p>
+                    <a><img src="photos/removeButton.png" class="removeButton" height="16" width="16"></a>
                 </div>
-                <p class="Quantity">الكمية <br> 1</p>
-                <a><img src="photos/removeButton.png" class="removeButton" height="16" width="16"></a>
+            </div>
+
+            <div class="aProductInCart">
+                <img src="photos/fridge.png" class="productImage">
+                <div class="content">
+                    <div class="discription">
+                        <span>سامسونج</span>
+                        <p class="productType">ثلاجة</p>
+                        <p class="productDetail">تكفي 3 اشخاص</p>
+                    </div>
+                    <p class="Quantity">الكمية <br> 1</p>
+                    <a><img src="photos/removeButton.png" class="removeButton" height="16" width="16"></a>
+                </div>
+            </div>
+
+            <div class="aProductInCart">
+                <img src="photos/fridge.png" class="productImage">
+                <div class="content">
+                    <div class="discription">
+                        <span>سامسونج</span>
+                        <p class="productType">ثلاجة</p>
+                        <p class="productDetail">تكفي 3 اشخاص</p>
+                    </div>
+                    <p class="Quantity">الكمية <br> 1</p>
+                    <a><img src="photos/removeButton.png" class="removeButton" height="16" width="16"></a>
+                </div>
             </div>
         </div>
+    </section>
 
-        <div class="aProductInCart">
-            <img src="photos/fridge.png" class="productImage">
-            <div class="content">
-                <div class="discription">
-                    <span>سامسونج</span>
-                    <p class="productType">ثلاجة</p>
-                    <p class="productDetail">تكفي 3 اشخاص</p>
-                </div>
-                <p class="Quantity">الكمية <br> 1</p>
-                <a><img src="photos/removeButton.png" class="removeButton" height="16" width="16"></a>
+    <!--Footer-->
+    <footer>
+        <div class="column">
+            <img class="logofooter" src="photos/imamu.png" width="30px" height="30px">
+            <p> مشروع صمم بواسطة طالبات جامعة الامام محمد بن سعود الاسلامية</p>
+
+            <div class="copyright">
+                <p>2024</p>
             </div>
-        </div>
+    </footer>
 
-        <div class="aProductInCart">
-            <img src="photos/fridge.png" class="productImage">
-            <div class="content">
-                <div class="discription">
-                    <span>سامسونج</span>
-                    <p class="productType">ثلاجة</p>
-                    <p class="productDetail">تكفي 3 اشخاص</p>
-                </div>
-                <p class="Quantity">الكمية <br> 1</p>
-                <a><img src="photos/removeButton.png" class="removeButton" height="16" width="16"></a>
-            </div>
-        </div>
-    </div>
-</section>
 
-<!--Footer-->
-<footer>
-    <div class = "column">
-      <img class= "logofooter" src = "photos/imamu.png" width="30px" height="30px">
-      <p> مشروع صمم بواسطة طالبات جامعة الامام محمد بن سعود الاسلامية</p>
-      
-    <div class = "copyright"> 
-      <p>2024</p>
-    </div>
-  </footer>
 </body>
-</html>
 
-    
-    
+</html>
