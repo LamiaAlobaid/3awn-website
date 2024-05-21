@@ -1,8 +1,6 @@
 <!DOCTYPE html>
 <html dir="rtl">
 
-</html>
-
 <head>
     <meta charset="UTF-8">
     <title>3awn</title>
@@ -12,7 +10,6 @@
 <body>
     <section id="welcomebeneficiary">
         <p class="welcomephrase" align="center"> عــــون <br> <br>لـخدمــة الـمـسـتـفـيـديــن</p>
-
         <img src="photos/fronpagepic.png" class="welcomepic" width="450px" length="450px" alt="3awn">
     </section>
     <div class="hero">
@@ -20,117 +17,75 @@
             <div class="button-box">
                 <div id="btn"></div>
                 <button type="button" class="toggle-btn" onclick="Account()"> تسجيل دخول </button>
-                <button type="button" class="toggle-btn" onclick="newAccount()" > تسجيل جديد </button>
-      
-        </div>
-        <form id = "newAccount" class="input-group">
-            <form id = "newAccount" method="post" action="">
+                <button type="button" class="toggle-btn" onclick="newAccount()"> تسجيل جديد </button>
+            </div>
+            <!-- signup page -->
+            <form id="newAccount" class="input-group" method="post" action="/signup">
                 <p><label for="txtList">اسم الجمعية:
-                        <input type="text" id="txtList" placeholder="اختيار الجمعية" list="الجمعيات" />
-                        <datalist id="الجمعيات">
-                            <option value="البر">
-                            <option value="الوداد">
-                            <option value="انسان">
-
-                        </datalist>
-                    </label>
-                    <br>
-                    <br>
-                <p>
-                    <label>الاسم الاول
-
-                        <input type="text" class="input-field" name="الاسم الاول" value="">
-                    </label>
-                </p>
-
-                <p>
-                    <label>الاسم الاخير
-
-                        <input type="text" class="input-field" name="الاسم الاخير" value="">
-                    </label>
-                </p>
-                <p>
-                    <label>اسم المستخدم
-
-                        <input type="text" class="input-field" name="اسم المستخدم" value="">
-                    </label>
-                </p>
-                
-                <p>
-                    <label> كلمة المرور
-
-                        <input type="password" class="input-field" name="كلمة المرور" value="">
-                    </label>
-                </p>
-
-                <p>
-                    <label>الايميل الالكتروني
-                        <input type="email" class="input-field" placeholder="name@domain.com" required />
-                    </label>
-                </p>
-                <p>
-                    <label>رقم الجوال
-                        <input type="tel" class="input-field" required />
-                    </label>
-                </p>
-                <p>
-                    <label> العنوان الوطني
-                        <input type="text" name="العنوان الوطني" class="input-field" value="">
-                    </label>
-                </p>
-                <p>
-                    <label>الرمز
-                        <input type="text" name="الرمز" class="input-field" value="">
-                    </label>
-                </p>
-                <br>
-                <a href="personPage.html" > <button class="submit-btn" type="button">انشاء حساب</button> </a>
+                    <input type="text" id="txtList" placeholder="اختيار الجمعية" list="الجمعيات" />
+                    <datalist id="الجمعيات">
+                        <option value="البر">
+                        <option value="الوداد">
+                        <option value="انسان">
+                    </datalist>
+                </label></p>
+                <p><label>الاسم الاول
+                    <input type="text" class="input-field" name="firstName" required />
+                </label></p>
+                <p><label>الاسم الاخير
+                    <input type="text" class="input-field" name="lastName" required />
+                </label></p>
+                <p><label>اسم المستخدم
+                    <input type="text" class="input-field" name="username" required />
+                </label></p>
+                <p><label> كلمة المرور
+                    <input type="password" class="input-field" name="password" required />
+                </label></p>
+                <p><label>الايميل الالكتروني
+                    <input type="email" class="input-field" name="email" required />
+                </label></p>
+                <p><label>رقم الجوال
+                    <input type="tel" class="input-field" name="phone" required />
+                </label></p>
+                <p><label> العنوان الوطني
+                    <input type="text" name="address" class="input-field" />
+                </label></p>
+                <p><label>الرمز
+                    <input type="text" name="code" class="input-field" />
+                </label></p>
+                <button class="submit-btn" type="submit">انشاء حساب</button>
             </form>
-         
-  <!--login page-->
-            <form id = "Account" class="input-group">
-                <p>
-                    <label>اسم المستخدم
 
-                        <input type="text" class="input-field" name="اسم المستخدم" value="">
-                    </label>
-                </p>
-                <p>
-                    <label> كلمة المرور
-
-                        <input type="password" class="input-field" name="كلمة المرور" value="">
-                    </label>
-                </p>
-                <br>
-                <a href="forgetpass.html"> <input type="submit"  name="submit" value="نسيت كلمة المرور"> </a>
-            </p>
-            <br>
-            <a href="personPage.html" > <button class="submit-btn" type="button">تسجيل دخول</button> </a>
+            <!-- login page -->
+            <form id="Account" class="input-group" method="post" action="/login">
+                <p><label>اسم المستخدم
+                    <input type="text" class="input-field" name="username" required />
+                </label></p>
+                <p><label> كلمة المرور
+                    <input type="password" class="input-field" name="password" required />
+                </label></p>
+                <a href="forgetpass.html"><input type="button" name="submit" value="نسيت كلمة المرور"></a>
+                <button class="submit-btn" type="submit">تسجيل دخول</button>
             </form>
-     
-       
-</form>
-</div>
-</div>
+        </div>
+    </div>
 
-<script>
-    var x = document.getElementById("newAccount");
-    var y = document.getElementById("Account");
-    var z = document.getElementById("btn");
+    <script>
+        var x = document.getElementById("newAccount");
+        var y = document.getElementById("Account");
+        var z = document.getElementById("btn");
 
-    function Account() {
-        x.style.left = "-350px"
-        y.style.left = "100px"
-        z.style.left = "110px"
-    }
-    function newAccount() {
-        x.style.left = "100px"
-        y.style.left = "650px"
-        z.style.left = "0px"
-    }
+        function Account() {
+            x.style.left = "-350px"
+            y.style.left = "100px"
+            z.style.left = "110px"
+        }
+
+        function newAccount() {
+            x.style.left = "100px"
+            y.style.left = "650px"
+            z.style.left = "0px"
+        }
     </script>
-
-
 </body>
-
 </html>
