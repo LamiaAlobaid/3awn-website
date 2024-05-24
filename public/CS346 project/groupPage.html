@@ -21,8 +21,8 @@
       <!--menu-->
       <ul class="navbar">
         <button class = "menuebutton"><a href="groupPage.html">الصفحة الرئيسية</a></button>
-        <li><a href="#addProduct ">إضافة المنتجات</a></li>
-        <li> <a href="#manageBenficiaries">إدارة المستفيدين</a</li>
+        <li><a href="addProduct.html">إضافة المنتجات</a></li>
+        <li> <a href="addPerson.html">إدارة المستفيدين</a</li>
         <li><a href="#">مراجعة الطلبات</a></li>
         <li> <a href="#">تجهيز و توصيل</a></li>
       </ul>
@@ -55,103 +55,17 @@
 </div>
 </div>
 
-<!-- add product section -->
-<section id="addProduct">
-  <div class="greenBox">
-    <p style="font-weight: bold; margin-right: 320px; font-size: large;">أضف منتج</p><br>
-    <form class="addProductForm" method="post" action="">
-      <table>
-        <tr>
-          <td colspan="2" style="text-align: center;">
-            <label>لرفع الصورة</label><button class="addBeneficiaryButton" >صورة المنتج</button>
-          </td>
-        </tr>
-        <tr>
-          <td><label>اسم المنتج</label></td>
-          <td><input type="text" class="input-field" name="firstName" required /></td>
-        </tr>
-        <tr>
-          <td><label>شركة المنتج</label></td>
-          <td><input type="text" class="input-field" name="lastName" required /></td>
-        </tr>
-        <tr>
-          <td><label>وصف المنتج</label></td>
-          <td><input type="tel" class="input-field" name="phone" required /></td>
-        </tr>
-        <tr>
-          <td colspan="2" style="text-align: center;">
-            <button class="addBeneficiaryButton" type="submit">+</button>
-          </td>
-        </tr>
-      </table>
-    </form>
-  </div>
-</section>
 
-
-<!-- space -->
-<div class="space">
-
-</div>
-
-<!-- manage Benficiaries section  -->
-<section id="manageBenficiaries">
-<div class="greenBox">
-  <p style="font-weight: bold; margin-right: 320px; font-size: large;">إدارة المستفيدين</p><br>
-
-  <p style="font-weight: bold; margin-right: 120px;">أضف مستفيد</p>
-  <button class="addBeneficiaryButton" style="margin-right: 500px; padding: 10px;" type="submit">قائمة المستفيدين</button>
-
-  <form class="manageBenficiariesForm" method="post" action="">
-    <table>
-      <tr>
-        <td><label>الاسم الاول</label></td>
-        <td><input type="text" class="input-field" name="firstName" required /></td>
-      </tr>
-      <tr>
-        <td><label>الاسم الاخير</label></td>
-        <td><input type="text" class="input-field" name="lastName" required /></td>
-      </tr>
-      <tr>
-        <td><label>رقم الجوال</label></td>
-        <td><input type="tel" class="input-field" name="phone" required /></td>
-      </tr>
-      <tr>
-        <td><label>العنوان الوطني</label></td>
-        <td><input type="text" name="address" class="input-field" /></td>
-      </tr>
-      <tr>
-        <td><label>الرمز</label></td>
-        <td><input type="text" name="code" class="input-field" /></td>
-      </tr>
-      <tr>
-        <td colspan="2" style="text-align: center;">
-          <button class="addBeneficiaryButton" type="submit">+</button>
-        </td>
-      </tr>
-    </table>
-  </form>
-</section>
-
-</div>
-
-<!-- space -->
-<div class="space">
-
-</div>
-
-
-
-<!-- footer -->
+<!--Footer-->
 <footer>
-    <div class = "column">
-      <img class= "logofooter" src = "photos/imamu.png" width="30px" height="30px">
-      <p> مشروع صمم بواسطة طالبات جامعة الامام محمد بن سعود الاسلامية</p>
-      
-    <div class = "copyright"> 
-      <p>2024</p>
-    </div>
-  </footer>
+  <div class = "column">
+    <img class= "logofooter" src = "photos/imamu.png" width="30px" height="30px">
+    <p> مشروع صمم بواسطة طالبات جامعة الامام محمد بن سعود الاسلامية</p>
+    
+  <div class = "copyright"> 
+    <p>2024</p>
+  </div>
+</footer>
 
     <script>
       document.getElementById("logoutButton").addEventListener("click", function() {

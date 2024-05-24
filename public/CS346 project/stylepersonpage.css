@@ -38,7 +38,7 @@ p{
 /* bar menu*/
 .navmenu {
     position: fixed;
-    padding-left: 740px;
+    padding-left: 860px;
     background-color: #94ac8d;
     z-index: 999;
 
@@ -369,7 +369,7 @@ footer{
         text-align: "right";
         font-weight: bolder; 
     }
-    .navmenu2 {
+    /* .navmenu2 {
         position: fixed;
         padding-left: 690px;
         background-color: #94ac8d;
@@ -378,13 +378,39 @@ footer{
     .navmenu2 ul li {
         display: inline-block;  
         /* width: 650px; */
+     */
+     .navmenu2 {
+        position: fixed;
+        width: 100%;
+        background-color: #94ac8d;
+        z-index: 999;
+        padding: 10px 0;
+        text-align: center;
     }
+    
+    .navmenu2 ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+    }
+    
+    .navmenu2 ul li, .navmenu2 .menuebutton {
+        display: inline;
+        margin-right: 15px;
+    }
+    
+    .navmenu2 ul li a, .navmenu2 .menuebutton a {
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+    }
+    
     .circleContainer{
         width: 500px;
         height: 250px;
         align-items:"center" ;
         display: flex;
-        padding-right: 150px;
+        padding-right: 220px;
         padding-top: 82px;
         font-weight: bolder; 
         color: #94ac8d;
@@ -399,6 +425,9 @@ footer{
         padding-right: 1px;
         text-align: center;
         color: white;
+    }
+    .circle:hover{
+        background-color: #94ac8d;
     }
     .cir1{
         padding-right: 200px;
@@ -418,34 +447,51 @@ footer{
         text-align: center;
     }
     /* ------------------------------- */
-
-    .greenBox{
-        background-color: #AFC8A7;
+    .form-container {
+        background-color: #94ac8d;
         border-radius: 20px;
-        padding: 10px;
-        margin-left: 250px;
-        margin-right: 250px;
+        padding: 20px;
+        margin-top: 20px;
+        margin-right: 400px;
+        height: 470px;
+        width: 400px;
+        text-align: center;
     }
-
-    .space{
-        margin-bottom: 200px;
+    
+    .button-container {
+        display: flex;
+        /* justify-content: space-between; */
+        margin-bottom: 20px;
     }
-
-    .addProductForm{
-        margin-right: 200px;
-    }
-
-    .addBeneficiaryButton{
-        border-radius: 20px;
-        margin-right: 80px;
-        padding-left: 10px;
-        padding-right: 10px;
-        margin-top: 10px;
+    
+    .red-button {
+        background-color: rgb(243, 153, 153);
         color: white;
+        border: none;
+        padding: 10px 20px;
+        font-size: 16px;
+        border-radius: 5px;
+        cursor: pointer;
     }
-
-    #logoutButton{
-        position: fixed;
-        top: 10%;
-        left: 3%;
+    
+    .yellow-button {
+        background-color: rgb(231, 231, 142);
+        color: black;
+        border: none;
+        padding: 10px 20px;
+        font-size: 16px;
+        border-radius: 5px;
+        cursor: pointer;
     }
+    
+    .green-button {
+        background-color: rgb(158, 224, 158);
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        font-size: 16px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    
+    
