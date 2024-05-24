@@ -7,6 +7,12 @@ This project is a web application aimed at providing a seamless shopping experie
 
 ![Screenshot 2024-05-24 180232](https://github.com/LamiaAlobaid/CS346-webProject/assets/95131667/d5f33b36-a553-4707-b63d-c26e49fe3e05)
 
+## Flowchart
+<img width="1391" alt="Flowchart" src="https://github.com/LamiaAlobaid/CS346-webProject/assets/124579897/2213c5d4-28b8-4356-8b9b-dbd2aefb0904">
+
+Flowchart Link for better quality:
+https://www.figma.com/board/zbQk4L02mcdtLJD6LJ1I3d/3awn-Website-Flowchart?node-id=0-1&t=Ubgm1brsHmADWorv-1
+
 ## Project Setup 
 **1. Install Dependencies:**
 Make sure you have Node.js and npm installed. Then, run the following command to install all necessary dependencies: ```npm install```
@@ -101,9 +107,10 @@ Make sure the layout adjusts perfectly to fit any screen size for a smooth viewi
   - https://images.app.goo.gl/RYNJyaMmq68DrWPA6
   - https://images.app.goo.gl/vucwecoxnNytAiKV7
   - https://m.media-amazon.com/images/I/71srwHR88bL.__AC_SX300_SY300_QL70_ML2_.jpg
+  - https://pin.it/2yFkhGKet 
     
 
-## Team memmbers:
+## Team members:
 - Lamia Alobaid
 - Emtnan Alomireni
 - Reema Albishri
