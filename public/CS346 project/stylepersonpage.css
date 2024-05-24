@@ -38,7 +38,7 @@ p{
 /* bar menu*/
 .navmenu {
     position: fixed;
-    padding-left: 860px;
+    padding-left: 740px;
     background-color: #94ac8d;
     z-index: 999;
 
@@ -418,3 +418,34 @@ footer{
         text-align: center;
     }
     /* ------------------------------- */
+
+    .greenBox{
+        background-color: #AFC8A7;
+        border-radius: 20px;
+        padding: 10px;
+        margin-left: 250px;
+        margin-right: 250px;
+    }
+
+    .space{
+        margin-bottom: 200px;
+    }
+
+    .addProductForm{
+        margin-right: 200px;
+    }
+
+    .addBeneficiaryButton{
+        border-radius: 20px;
+        margin-right: 80px;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-top: 10px;
+        color: white;
+    }
+
+    #logoutButton{
+        position: fixed;
+        top: 10%;
+        left: 3%;
+    }
