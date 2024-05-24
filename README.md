@@ -5,6 +5,7 @@ Charity Shop Web Application
 
 This project is a web application aimed at providing a seamless shopping experience for individuals registered with charities. The platform allows registered users to browse through donated products uploaded by various charities, select items they need, and add them to their shopping cart. The essence of this project is to provide a dignified shopping experience for individuals in need, making them feel like any other regular shopper.
 
+![Screenshot 2024-05-24 180232](https://github.com/LamiaAlobaid/CS346-webProject/assets/95131667/d5f33b36-a553-4707-b63d-c26e49fe3e05)
 
 ## Project Setup 
 **1. Install Dependencies:**
@@ -63,16 +64,16 @@ Open your web browser and navigate to http://localhost:3000 to access the applic
 - public//CS346 project : Directory containing static files (HTML, CSS, JS, images).
 
 ## Goals:
-**- Accessible Assistance:**
+**-Accessible Assistance:**
 Offer individuals in need a user-friendly platform to obtain essential items without financial strain.
 
-**- Efficient Charity Support**
+**-Efficient Charity Support**
 Simplify the process for charities to upload and manage product listings, ensuring accurate representation of available items.
 
-**- Community Inclusion:**
+**-Community Inclusion:**
 Create an online community where individuals can browse and select items, fostering empowerment and support.
 
-**- Charitable Reach:**
+**-Charitable Reach:**
 Extend the impact of charitable organizations by efficiently connecting them with those in need.
 
 
