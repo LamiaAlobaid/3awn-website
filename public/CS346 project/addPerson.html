@@ -1,35 +1,39 @@
 <!DOCTYPE html>
 <html dir="rtl">
-
 <head>
     <meta charset="UTF-8">
     <title>إضافة مستفيدين</title>
     <link rel="stylesheet" type="text/css" href="stylepersonpage.css">
+    <script src="script.js" defer></script>
 </head>
-
 <body>
-
 <section class="group_page_continer">
     <!--MENU BAR-->
     <nav class="navmenu2">
+        <div class="menu-body">
+            <a id="logoutButton"><img src="photos/white-logout.png" id="logoutButton" width="30px" height="30px"></a>
+        </div>
         <!--menu-->
         <ul class="navbar">
             <button class="menuebutton"><a href="groupPage.html">الصفحة الرئيسية</a></button>
-            <li><a href="#">إدارة المستفيدين</a></li>
-            <li><a href="#">مراجعة الطلبات</a></li>
-            <li><a href="#">تجهيز و توصيل</a></li>
+            <li><a href="addProduct.html">إضافة المنتجات</a></li>
+            <li><a href="addPerson.html">إدارة المستفيدين</a></li>
+            <li><a href="manageOrders.html">مراجعة الطلبات</a></li>
+            <li><a href="handle&deliver.html">تجهيز و توصيل</a></li>
         </ul>
     </nav>
 
     <!--welcome text in group page-->
     <p class="welcomephrase2">أهــلا بــــك في عــــون<br><br> لـخدمــة الـجـمـعـيـات</p>
     <img src="photos/fronpagepic.png" class="welcomepic2" width="450px" length="450px" alt="3awn">
-   </section>
+</section>
 
-   
 <!--اضافة مستفيد-->
+<div class="manageOrders">
+    <button id="addBeneficiaryButton" class="addBeneficiaryButton" type="button">قائمة المستفيدين</button>
+</div>
 <section id="اضافة مستفيد" class="form-container">
-    <b><p align="center">أضف مستفيد</p></b>
+    <b><p align="center" style="font-size: 20px;">أضف مستفيد</p></b>
     <div class="button-container">
         <button type="button" class="red-button">طلب كود ضعيف</button>
         <button type="button" class="yellow-button">طلب كود متوسط</button>
@@ -81,10 +85,45 @@
     </form>
 </section>
 
+<!-- Modal -->
+<div id="beneficiaryModal" class="modal">
+    <div class="modal-content">
+        <span class="close-button">&times;</span>
+        <h2>قائمة المستفيدين</h2>
+        <div class="user-list">
+            <div class="user-item">
+                <span>سارة</span>
+                <span>001</span>
+                <button class="edit-button">تعديل</button>
+                <button class="delete-button">حذف</button>
+            </div>
+            <div class="user-item">
+                <span>نورة</span>
+                <span>002</span>
+                <button class="edit-button">تعديل</button>
+                <button class="delete-button">حذف</button>
+            </div>
+            <div class="user-item">
+                <span>محمد</span>
+                <span>002</span>
+                <button class="edit-button">تعديل</button>
+                <button class="delete-button">حذف</button>
+            </div>
+            <div class="user-item">
+                <span>عبدالله</span>
+                <span>002</span>
+                <button class="edit-button">تعديل</button>
+                <button class="delete-button">حذف</button>
+            </div>
+            <!-- Add more user items as needed -->
+        </div>
+    </div>
+</div>
+
 <!-- footer -->
 <footer>
     <div class="column">
-        <p><p></p>
+        <p></p>
         <img class="logofooter" src="photos/imamu.png" width="30px" height="30px">
         <p>مشروع صمم بواسطة طالبات جامعة الامام محمد بن سعود الاسلامية</p>
         <div class="copyright">
@@ -92,6 +131,27 @@
         </div>
     </div>
 </footer>
+<script>
+    document.getElementById("logoutButton").addEventListener("click", function() {
+        var confirmation = confirm("هل انت متأكد من تسجيل الخروج ؟");
+        if (confirmation) {
+            window.location.href = "index.html"; 
+        }
+    });
 
+    document.getElementById("addBeneficiaryButton").addEventListener("click", function() {
+        document.getElementById("beneficiaryModal").style.display = "block";
+    });
+
+    document.querySelector(".close-button").addEventListener("click", function() {
+        document.getElementById("beneficiaryModal").style.display = "none";
+    });
+
+    window.onclick = function(event) {
+        if (event.target == document.getElementById("beneficiaryModal")) {
+            document.getElementById("beneficiaryModal").style.display = "none";
+        }
+    }
+</script>
 </body>
 </html>

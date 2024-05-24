@@ -5,21 +5,29 @@
     <meta charset="UTF-8">
     <title>إضافة منتجات</title>
     <link rel="stylesheet" type="text/css" href="stylepersonpage.css">
+    <script src="script.js"></script>
+
 </head>
 
 <body>
 
 <section class="group_page_continer">
-    <!--MENU BAR-->
-    <nav class="navmenu2">
-        <!--menu-->
-        <ul class="navbar">
-            <button class="menuebutton"><a href="groupPage.html">الصفحة الرئيسية</a></button>
-            <li><a href="addPerson.html">إضافة مستفيد</a></li>
-            <li><a href="#">مراجعة الطلبات</a></li>
-            <li><a href="#">تجهيز و توصيل</a></li>
-        </ul>
-    </nav>
+  <!--MENU BAR-->
+  <nav class="navmenu2">
+    <div class="menu-body">
+      <a  id="logoutButton" ><img src="photos/white-logout.png" id="logoutButton" width="30px" height="30px"></a>
+    </div>
+    <!--menu-->
+    <ul class="navbar">
+      <button class = "menuebutton"><a href="groupPage.html">الصفحة الرئيسية</a></button>
+      <li><a href="addProduct.html">إضافة المنتجات</a></li>
+      <li> <a href="addPerson.html">إدارة المستفيدين</a</li>
+      <li><a href="manageOrders.html">مراجعة الطلبات</a></li>
+      <li> <a href="handle&deliver.html">تجهيز و توصيل</a></li>
+    </ul>
+    </div>
+    
+  </nav>
 
     <!--welcome text in group page-->
     <p class="welcomephrase2">أهــلا بــــك في عــــون<br><br> لـخدمــة الـجـمـعـيـات</p>
@@ -27,7 +35,9 @@
 </section>
 
 <!--اضافة منتجات-->
-<b><p align="center">أضف منتج</p></b>
+<div class="whiteContainer">
+    <b><h1 class="title" >أضف منتج</h1></b>
+
 <div class="circleContainer">
 
     <div class="cir1">
@@ -45,6 +55,7 @@
     <p>ملابس</p>
     </div>
     </div>
+</div>
 
 <!-- footer -->
 <footer>
@@ -56,6 +67,19 @@
         </div>
     </div>
 </footer>
+
+<script>
+     document.getElementById("logoutButton").addEventListener("click", function() {
+        var confirmation = confirm("هل انت متأكد من تسجيل الخروج ؟");
+
+        if (confirmation) {
+      
+			window.location.href = "index.html"; 
+        } else {
+
+        }
+      });
+</script>
 
 </body>
 </html>
