@@ -64,29 +64,46 @@ Open your web browser and navigate to http://localhost:3000 to access the applic
 - public//CS346 project : Directory containing static files (HTML, CSS, JS, images).
 
 ## Goals:
-**-Accessible Assistance:**
+**- Accessible Assistance:**
 Offer individuals in need a user-friendly platform to obtain essential items without financial strain.
 
-**-Efficient Charity Support**
+**- Efficient Charity Support**
 Simplify the process for charities to upload and manage product listings, ensuring accurate representation of available items.
 
-**-Community Inclusion:**
+**- Community Inclusion:**
 Create an online community where individuals can browse and select items, fostering empowerment and support.
 
-**-Charitable Reach:**
+**- Charitable Reach:**
 Extend the impact of charitable organizations by efficiently connecting them with those in need.
 
 
 ## Futuer Work: 
 
-**-Database Connectivity:**
+**- Database Connectivity:**
 Connect all components to the database for efficient data management and retrieval.
 
-**-Multi-Language Support:**
+**- Multi-Language Support:**
 Cater to diverse users with support for multiple languages.
 
-**-Order Tracking:**
+**- Order Tracking:**
 Keep users informed about order status and history.
 
-**-Enhance Design:**
+**- Enhance Design:**
 Make sure the layout adjusts perfectly to fit any screen size for a smooth viewing experience
+
+## Resources:
+- our presentation: https://www.canva.com/design/DAGF5VmGuzk/lHH6l4cJ2OymtwFk9KFQog/edit?utm_content=DAGF5VmGuzk&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+- helpful resources: https://satr.codes/paths/ecbAGsuqOQ/view
+- pictures we used:
+  - https://images.app.goo.gl/VJCWQzZkShq4QExo7
+  - https://alghanim-store.com/pQeGBoq
+  - https://images.app.goo.gl/qxLhj8JLXWBroH226
+  - https://images.app.goo.gl/RYNJyaMmq68DrWPA6
+  - https://images.app.goo.gl/vucwecoxnNytAiKV7
+  - https://m.media-amazon.com/images/I/71srwHR88bL.__AC_SX300_SY300_QL70_ML2_.jpg
+    
+
+## Team memmbers:
+- Lamia Alobaid
+- Emtnan Alomireni
+- Reema Albishri
