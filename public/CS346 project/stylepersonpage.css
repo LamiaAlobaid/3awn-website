@@ -105,6 +105,7 @@ button {
 
 .choosebutton {
     padding: 10px;
+    margin-top: 10px;
     position: absolute;
     right: 140px;
     top: 350px;

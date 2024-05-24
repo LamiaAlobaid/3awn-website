@@ -61,3 +61,31 @@ Open your web browser and navigate to http://localhost:3000 to access the applic
 - app.js: Main application file where the server is set up and routes are defined.
 - models/User.js: Mongoose model for user schema.
 - public//CS346 project : Directory containing static files (HTML, CSS, JS, images).
+
+## Goals:
+**- Accessible Assistance:**
+Offer individuals in need a user-friendly platform to obtain essential items without financial strain.
+
+**- Efficient Charity Support**
+Simplify the process for charities to upload and manage product listings, ensuring accurate representation of available items.
+
+**- Community Inclusion:**
+Create an online community where individuals can browse and select items, fostering empowerment and support.
+
+**- Charitable Reach:**
+Extend the impact of charitable organizations by efficiently connecting them with those in need.
+
+
+## Futuer Work: 
+
+**-Database Connectivity:**
+Connect all components to the database for efficient data management and retrieval.
+
+**-Multi-Language Support:**
+Cater to diverse users with support for multiple languages.
+
+**-Order Tracking:**
+Keep users informed about order status and history.
+
+**-Enhance Design:**
+Make sure the layout adjusts perfectly to fit any screen size for a smooth viewing experience
