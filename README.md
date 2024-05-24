@@ -99,6 +99,7 @@ Make sure the layout adjusts perfectly to fit any screen size for a smooth viewi
 
 ## Resources:
 - our presentation: https://www.canva.com/design/DAGF5VmGuzk/lHH6l4cJ2OymtwFk9KFQog/edit?utm_content=DAGF5VmGuzk&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+- Demo : https://drive.google.com/file/d/1_ivfZi0fJdgDrGVhfYxqJg9_KwyZ9LSU/view?usp=sharing
 - helpful resources: https://satr.codes/paths/ecbAGsuqOQ/view
 - pictures we used:
   - https://images.app.goo.gl/VJCWQzZkShq4QExo7
