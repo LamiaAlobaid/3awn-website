@@ -1,4 +1,4 @@
-# CS346-webProject
+# 3awn website
 
 ## overview
 Charity Shop Web Application 
